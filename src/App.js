@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename='/test'>
+      <BrowserRouter basename='/task001'>
         <Routes>
           <Route path="/" element={<Movies />} />
           <Route path="/:id" element={<MovieDetails />} />
